@@ -154,7 +154,7 @@ ul {
 .showcase {
   width: 100%;
   height: 600px;
-  background: url("/assets/Highlight-Hero-M365-Screenplates-Update-Excel_VP5-1920x600.jpeg")
+  background: url("/reactjstraining/assets/Highlight-Hero-M365-Screenplates-Update-Excel_VP5-1920x600.jpeg")
     no-repeat center center/cover;
   display: flex;
   flex-direction: column;
@@ -214,7 +214,7 @@ ul {
 .xbox {
   width: 100%;
   height: 500px;
-  background: url("/assets/gldn-MSFT-hero-Edge_VP4-1260x600.jpeg") no-repeat center center/cover;
+  background: url("/reactjstraining/assets/gldn-MSFT-hero-Edge_VP4-1260x600.jpeg") no-repeat center center/cover;
   margin-bottom: 100px;
 }
 
