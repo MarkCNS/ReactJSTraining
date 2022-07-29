@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on git
-and this project adheres to [ReactJSTraining](../tree/main/reactjstraining) program.
+and this project adheres to [ReactJSTraining](/reactjstraining) program.
 
 ## 2022-07-29
 
