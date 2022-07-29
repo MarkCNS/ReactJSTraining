@@ -3,13 +3,13 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on git
-and this project adheres to [ReactJSTraining](../reactjstraining/) program.
+and this project adheres to [ReactJSTraining](../tree/main/reactjstraining) program.
 
 ## 2022-07-29
 
 ### Added
 
-- [js](../reactjstraining/js/)
+- [js](../tree/main/reactjstraining/js/)
   added to "main" branch
 
 ### Changed
