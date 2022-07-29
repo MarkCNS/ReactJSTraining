@@ -9,7 +9,7 @@ and this project adheres to [ReactJSTraining](/reactjstraining) program.
 
 ### Added
 
-- [js](../tree/main/reactjstraining/js/)
+- [js](reactjstraining/js/)
   added to "main" branch
 
 ### Changed
