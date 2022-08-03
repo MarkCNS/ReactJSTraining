@@ -84,8 +84,7 @@ ul {
 .banner {
   width: 100%;
   height: 800px;
-  background: url("/reactjstraining/TravelBuddy/assets/banner_bg\ 1.png")
-    no-repeat center center/cover;
+  background: url("/reactjstraining/TravelBuddy/assets/banner_bg\ 1.png") no-repeat center center/cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -141,6 +140,7 @@ ul {
   padding: 31px 24px;
   gap: 39px;
 }
+
 .menu2 li {
   padding: 0 10px;
 }
@@ -159,6 +159,7 @@ ul {
   position: relative;
   background: #f3f3f3;
 }
+
 .filter {
   /* border: 1px solid blueviolet; */
   position: absolute;
@@ -176,6 +177,7 @@ ul {
     0px -4.72157px 5.32008px rgba(167, 207, 255, 0.0282725),
     0px -1.96475px 2.21381px rgba(167, 207, 255, 0.0196802);
 }
+
 .visit {
   display: flex;
   flex-direction: row;
@@ -198,6 +200,7 @@ ul {
   font-size: 14px;
   color: white;
 }
+
 .top-place-visit,
 h2 {
   font-weight: 600;
@@ -208,6 +211,7 @@ h2 {
   justify-content: center;
   padding-top: 10rem;
 }
+
 .top-place-visit,
 p {
   font-size: 18px;
@@ -216,23 +220,31 @@ p {
   letter-spacing: 0.05em;
   justify-content: center;
 }
+
 .top-place-visit {
   margin-bottom: 80px;
 }
+
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 50px;
-  position: relative;
-  padding: 0px 100px;
+  /* position: relative; */
+  padding: 30px 100px;
 }
 
-.child-grid {
+/* .child-grid {
   justify-self: end;
 }
 .child-grid2 {
   justify-self: end;
+} */
+
+.child-grid img {
+  width: 100%;
+  height: auto;
 }
+
 .btn4 {
   /* align-items: center;
   padding: 13px 50px;
@@ -244,6 +256,7 @@ p {
   margin: 0 auto;
   margin-top: 100px;
 }
+
 .d-cover {
   font-weight: 600;
   font-size: 18px;
@@ -269,6 +282,7 @@ p {
   background-position-y: 7px;
   outline: none;
 }
+
 .date {
   width: 173px;
   padding: 14px 10px;
@@ -281,8 +295,7 @@ p {
 .banner2 {
   width: 100%;
   height: 1000px;
-  background: url("/reactjstraining/TravelBuddy/assets/event_bg\ 1.png")
-    no-repeat center center/cover;
+  background: url("/reactjstraining/TravelBuddy/assets/event_bg\ 1.png") no-repeat center center/cover;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -316,6 +329,7 @@ p {
   border: 2px solid green;
   margin: 0 200px;
 }
+
 #line2 {
   font-family: "Arial";
   font-style: normal;
@@ -344,6 +358,7 @@ p {
   flex-grow: 0;
   margin-bottom: 25px;
 }
+
 /* .rating {
   display: grid;
 } */
@@ -423,6 +438,7 @@ h2 {
   letter-spacing: 0.05em;
   justify-content: center;
 }
+
 .best-services,
 p {
   font-size: 18px;
@@ -431,6 +447,7 @@ p {
   letter-spacing: 0.05em;
   justify-content: center;
 }
+
 .best-services {
   margin-bottom: 80px;
 }
@@ -451,6 +468,7 @@ p {
 .home-cards h1 {
   margin-bottom: 5px;
 }
+
 .home-cards p {
   text-align: left;
   margin-bottom: 8px;
@@ -466,6 +484,7 @@ p {
   width: 23px;
   margin-bottom: 4px;
 }
+
 .home-cards .price {
   color: #da1212;
 }
@@ -479,20 +498,24 @@ p {
 ul {
   list-style: none;
 }
+
 .footer {
   background-color: #19224d;
   padding: 100px 100px;
   height: 500px;
   margin-top: 150px;
 }
+
 .footer-col {
   width: 25%;
   padding: 0 15px;
 }
+
 .footer-col0 {
   text-align: center;
   padding: 30px 125px;
 }
+
 .footer-col0 h4 {
   font-size: 33px;
   color: #ffffff;
@@ -501,6 +524,7 @@ ul {
   font-weight: 500; */
   position: relative;
 }
+
 /* .footer-col0 h4::before{
 	content: '';
 	position: absolute;
@@ -520,6 +544,7 @@ ul {
   /* font-weight: 500; */
   position: relative;
 }
+
 /* .footer-col h4::before {
   content: "";
   position: absolute;
@@ -533,6 +558,7 @@ ul {
 .footer-col ul li:not(:last-child) {
   margin-bottom: 10px;
 }
+
 .footer-col ul li a {
   font-size: 18px;
   text-transform: capitalize;
@@ -543,6 +569,7 @@ ul {
   display: block;
   transition: all 0.3s ease;
 }
+
 /* .footer-col ul li a:hover{
 	color: #ffffff;
 	padding-left: 8px;
@@ -563,6 +590,7 @@ ul {
 #links {
   padding-right: 10px;
 }
+
 /* .footer-col .social-links p {
   color: #FF5403;
 }
@@ -590,6 +618,7 @@ ul {
     margin-bottom: 30px;
   }
 }
+
 @media (max-width: 574px) {
   .footer-col {
     width: 100%;
