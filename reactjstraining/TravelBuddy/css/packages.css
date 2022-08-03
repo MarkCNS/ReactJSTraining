@@ -1,0 +1,454 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff;
+    color: #000;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+  }
+  
+  .icon img {
+    width: 44px;
+    height: 47px;
+    /* margin-top: 10px; */
+  }
+  
+  .main-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 115px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  
+  .main-nav ul {
+    display: flex;
+  }
+  
+  .main-menu li {
+    padding: 0 30px;
+  }
+  
+  .btn {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #ff5403;
+    color: #fff;
+    font-size: 15px;
+  }
+  
+  .main-nav ul li a:hover {
+    border-bottom: 2px solid #262626;
+  }
+  
+  .icon {
+    display: inline-flex;
+    height: 47px;
+  }
+  
+  .icon h4 {
+    margin-top: 13px;
+    margin-left: 15px;
+  }
+  
+  .icon h4 a {
+    font-size: 17px;
+  }
+  
+  .banner {
+    width: 100%;
+    height: 400px;
+    background: url("/reactjstraining/TravelBuddy/assets/banner_bg\ 1.png")
+      no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    text-align: center;
+    /* padding-bottom: 10px;
+      margin-bottom: 40px; */
+  }
+  
+  /* .banner h1,
+    .banner p {
+      margin-bottom: 10px;
+    } */
+  
+  .banner h1 {
+    font-weight: 700;
+    font-size: 100px;
+    color: #fff;
+    letter-spacing: 5px;
+    font-family: Arial;
+  }
+  
+  .banner p {
+    color: #fff;
+    font-size: 20px;
+    /* line-height: 24px; */
+    letter-spacing: 0.03em;
+    /* margin-bottom: 30px; */
+  }
+
+  .best-services,
+h2 {
+  font-weight: 600;
+  font-size: 36px;
+  color: #041562;
+  text-align: center;
+  letter-spacing: 0.05em;
+  justify-content: center;
+}
+.best-services,
+p {
+  font-size: 18px;
+  color: lightslategray;
+  text-align: center;
+  letter-spacing: 0.05em;
+  justify-content: center;
+}
+.best-services {
+  padding: 80px;
+}
+
+.home-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 80px;
+  margin-bottom: 40px;
+  padding: 0 102px;
+}
+
+.home-cards img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.home-cards h1 {
+  margin-bottom: 5px;
+}
+.home-cards p {
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.home-cards .rating {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.home-cards .rating img {
+  width: 23px;
+  margin-bottom: 4px;
+}
+.home-cards .price {
+  color: #da1212;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+}
+
+.banner2 {
+    width: 100%;
+    height: 1000px;
+    background: url("/reactjstraining/TravelBuddy/assets/event_bg\ 1.png")
+      no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: left;
+    justify-content: center;
+    /* margin-top: 150px; */
+  }
+  
+  /* .banner2-inner {
+        background-color: #fff;
+        padding: 200px 50px;
+        margin-right: 400px;
+    }
+    
+    .b2-up-event {
+        font-size: 18px;
+        color: #FF5403;
+    }
+    
+    .banner2-inner h3 {
+        font-size: 32px;
+        color: #041562;
+    } */
+  
+  .event-card {
+    padding: 50px;
+    align-items: center;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 400;
+    border: 2px solid green;
+    margin: 0 200px;
+  }
+  #line2 {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ff5403;
+    text-align: left;
+    margin-bottom: 25px;
+  }
+  
+  .line3 {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: left;
+  
+    letter-spacing: 0.05em;
+  
+    color: #041562;
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-bottom: 25px;
+  }
+  /* .rating {
+      display: grid;
+    } */
+  .line1 {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 170%;
+  
+    letter-spacing: 0.02em;
+  
+    color: #626262;
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .event-card-child p {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 170%;
+    letter-spacing: 0.02em;
+    color: #434343;
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-align-last: left;
+    margin-bottom: 20px;
+  }
+  
+  .event-card-child .rating {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .plan {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 50px;
+    gap: 10px;
+  
+    width: 198px;
+    height: 52px;
+  
+    background: #ff5403;
+  
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+  
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 22px;
+  
+    color: #ffffff;
+    text-align: left;
+    margin-top: 20px;
+  }
+
+.footer {
+  background-color: #19224d;
+  padding: 100px 100px;
+  height: 500px;
+  margin-top: 150px;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col0 {
+  text-align: center;
+  padding: 30px 125px;
+}
+.footer-col0 h4 {
+  font-size: 33px;
+  color: #ffffff;
+  text-transform: capitalize;
+  /* margin-bottom: 35px;
+    font-weight: 500; */
+  position: relative;
+}
+/* .footer-col0 h4::before{
+      content: '';
+      position: absolute;
+      left:0;
+      bottom: -10px;
+      background-color: #e91e63;
+      height: 2px;
+      box-sizing: border-box;
+      width: 50px;
+  } */
+
+.footer-col h4 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 35px;
+  /* font-weight: 500; */
+  position: relative;
+}
+/* .footer-col h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  } */
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+/* .footer-col ul li a:hover{
+      color: #ffffff;
+      padding-left: 8px;
+  } */
+.footer-col .address p {
+  text-align-last: left;
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #bbbbbb;
+}
+
+#socials {
+  color: #ff5403;
+  text-align: left;
+  margin-top: 30px;
+}
+
+#links {
+  padding-right: 10px;
+}
+/* .footer-col .social-links p {
+    color: #FF5403;
+  }
+  .footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+  }
+  .footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+  } */
+
+/*responsive*/
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}
+
+.copyright {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 625px;
+  inline-size: max-content;
+
+  background: #000b3e;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
