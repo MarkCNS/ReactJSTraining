@@ -32,3 +32,10 @@ and this project adheres to [ReactJSTraining](/reactjstraining) program.
 - added [callback.js](/reactjstraining/js/callback.js).
 - added [promises.js](/reactjstraining/js/promises.js).
 - added [placeholder.html](/reactjstraining/html/jsonplaceholder.html).
+
+## 2022-08-3
+
+### Added
+
+- added [Packages](/reactjstraining/TravelBuddy/html/packages.html) HTML page.
+- added [Packages](/reactjstraining/TravelBuddy/css/packages.css) CSS.
