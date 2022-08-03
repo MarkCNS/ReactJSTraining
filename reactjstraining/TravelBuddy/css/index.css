@@ -149,7 +149,7 @@ ul {
   color: #51728e;
 }
 
-.banner-u {
+.banner-u:hover {
   margin-bottom: 50px;
   padding-bottom: 10px;
   border-bottom: 2px solid #51728e;
