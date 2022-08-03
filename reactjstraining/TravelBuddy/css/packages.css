@@ -439,16 +439,11 @@ ul {
 .copyright {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
-  padding: 20px 625px;
-  inline-size: max-content;
-
+  justify-content: center;
+  padding: 20px 115px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
   background: #000b3e;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
