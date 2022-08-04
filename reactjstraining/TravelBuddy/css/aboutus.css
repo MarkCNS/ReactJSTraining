@@ -520,19 +520,6 @@ ul {
     background-color: #ffffff;
   } */
 
-/*responsive*/
-@media (max-width: 767px) {
-  .footer-col {
-    width: 50%;
-    margin-bottom: 30px;
-  }
-}
-@media (max-width: 574px) {
-  .footer-col {
-    width: 100%;
-  }
-}
-
 .copyright {
   display: flex;
   flex-direction: row;
@@ -543,4 +530,145 @@ ul {
   font-weight: 400;
   line-height: 22px;
   background: #000b3e;
+}
+
+/*responsive*/
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1380px) {
+  .visit {
+    padding: 10px;
+    gap: 6px;
+    width: auto;
+    flex-wrap: wrap;
+  }
+
+  .menu2 {
+    padding: 2px;
+    gap: 6px;
+    width: auto;
+    flex-wrap: wrap;
+  }
+
+  .filter {
+    padding: 0px;
+    gap: 6px;
+    width: 90%;
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+}
+
+@media screen and (max-width: 1056px) {
+  .main-nav {
+    padding: 20px;
+    gap: 6px;
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .main-menu {
+    padding: 20px;
+    gap: 6px;
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 467px) {
+  .top-place-visit h2 {
+    margin-top: 15rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .home-cards {
+   width: auto;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 55px;
+  }
+
+  .grid {
+    width: auto;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 55px;
+  }
+}
+
+@media screen and (max-width: 507px) {
+  .row {
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer-col0 {
+    padding: 30px 0px;
+  }
+
+  .footer {
+    height: 950px;
+    padding: 0px;
+  }
+  
+}
+
+@media screen and (max-width: 706px) {
+  .banner2 {
+    flex-wrap: wrap;
+    width: auto;
+    align-content: center;
+  }
+}
+
+@media screen and (max-width: 1104px) {
+  .footer {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .logo-banner {
+    flex-wrap: wrap;
+    gap: 60px;
+    height: auto;
+    /* width: 80%; */
+    padding: 100px 50px;
+  }
+
+  .lbanner-card2 {
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .logo-banner .lbanner-card2 .card2-p1 {
+    width: 80%;
+    height: auto;
+    margin-bottom: 40px;
+  }
+
+  .logo-banner .lbanner-card2 .card2-p2 {
+    width: 80%;
+    height: auto;
+    margin-bottom: 40px;
+  }
+
+  .logo-banner .lbanner-card2 .card2-p3 {
+    width: 80%;
+    height: auto;
+  }
 }
