@@ -1,9 +1,9 @@
-const age = 17;
+const age = 21;
 
 if (age < 18) {
-  console.log("Abhishek is a baby.");
+  console.log("Paari is a baby.");
 } else if (age >= 18 && age <= 21) {
-  console.log("Abhishek is a child.");
+  console.log("Paari is a child.");
 } else {
-  console.log("Abhishek is a kid.");
+  console.log("Paari is a kid.");
 }

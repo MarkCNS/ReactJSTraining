@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background: #fff;
   color: #000;
   font-size: 15px;
@@ -63,6 +63,76 @@ ul {
   font-size: 15px;
 }
 
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: #000;
+  margin: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .main-nav {
+    justify-content: space-around;
+    padding: 20px 0px;
+    gap: 45px;
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .main-menu {
+    position: absolute;
+    right: 0px;
+    height: 400px;
+    top: 86px;
+    background: rgba(247, 249, 249, 0.85);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+
+  .btn {
+    position: absolute;
+    right: 0px;
+    height: 70px;
+    top: 486px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+    background: rgba(255, 84, 3, 0.85);
+    border-bottom-left-radius: 10px;
+  }
+
+  .main-nav ul {
+    width: 50%;
+    /* padding: 0px; */
+    justify-content: space-evenly;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .nav-active {
+    transform: translateX(0%);
+  }
+}
+
 .main-nav ul li a:hover {
   border-bottom: 2px solid #262626;
 }
@@ -84,7 +154,8 @@ ul {
 .banner {
   width: 100%;
   height: 800px;
-  background: url("/reactjstraining/TravelBuddy/assets/banner_bg\ 1.png") no-repeat center center/cover;
+  background: url("/reactjstraining/TravelBuddy/assets/banner_bg\ 1.png")
+    no-repeat center center/cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -295,7 +366,8 @@ p {
 .banner2 {
   width: 100%;
   height: 1000px;
-  background: url("/reactjstraining/TravelBuddy/assets/event_bg\ 1.png") no-repeat center center/cover;
+  background: url("/reactjstraining/TravelBuddy/assets/event_bg\ 1.png")
+    no-repeat center center/cover;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -611,8 +683,6 @@ ul {
   background-color: #ffffff;
 } */
 
-
-
 .copyright {
   /* display: flex;
   flex-direction: row;
@@ -671,21 +741,20 @@ ul {
     flex-wrap: wrap;
     height: auto;
   }
-
 }
 
 @media screen and (max-width: 1056px) {
   .main-nav {
-    padding: 20px;
-    gap: 6px;
+    padding: 20px 0px;
+    gap: 50px;
     width: auto;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
   }
 
   .main-menu {
     padding: 20px;
-    gap: 6px;
+    gap: 45px;
     width: auto;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -700,7 +769,7 @@ ul {
 
 @media screen and (max-width: 1000px) {
   .home-cards {
-   width: auto;
+    width: auto;
     grid-template-columns: repeat(1, 1fr);
     padding: 0 55px;
   }
@@ -727,7 +796,6 @@ ul {
     height: 950px;
     padding: 0px;
   }
-  
 }
 
 @media screen and (max-width: 706px) {

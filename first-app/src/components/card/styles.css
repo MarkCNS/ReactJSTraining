@@ -1,0 +1,159 @@
+.container {
+  background: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  max-width: 25%;
+  width: 100%;
+  padding: 20px 50px;
+}
+
+.todo-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.todo-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.todo-form input {
+  margin-right: 15px;
+  padding: 0px 10px;
+  height: 34px;
+  border-radius: 5px;
+  flex-grow: 1;
+  border: 1px solid black;
+}
+
+.upTask {
+  flex-grow: 1;
+}
+
+.edit-input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: inherit;
+  color: #4f7b8c;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+
+.add-btn {
+  font-size: 20px;
+  height: 36px;
+  width: 36px;
+  border-radius: 5px;
+  border: 0px;
+  color: #fff;
+  background-color: #0dcaf0;
+  cursor: pointer;
+}
+
+.edit-btn {
+  height: 36px;
+  width: 55px;
+  border-radius: 5px;
+  border: 0px;
+  color: #fff;
+  background-color: #0df06f;
+  cursor: pointer;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.round {
+  width: 100%;
+  height: 50px;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 5px;
+  margin: 8px 0px;
+}
+
+.checkbox-round {
+  width: 1.3em;
+  height: 1.3em;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid black;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.white {
+  text-decoration: none;
+}
+
+.green {
+  text-decoration: line-through;
+  color: #4f7b8c;
+}
+
+.checkbox-round:checked {
+  background-color: green;
+}
+
+.round p {
+  text-align: left;
+  flex-grow: 1;
+  letter-spacing: 0.1em;
+}
+
+.round svg {
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+}
+
+.round button {
+  border: 0px;
+}
+
+.todo-clear {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.todo-clear p {
+  font-size: 13px;
+  color: #598292;
+}
+
+.todo-clear button {
+  height: 36px;
+  padding: 0px 10px;
+  color: white;
+  background-color: #dc3545;
+  height: 36px;
+  border-radius: 5px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.noTasks {
+  padding: 20px 0px;
+  margin-top: 20px;
+  font-size: 13px;
+  color: #598292;
+}

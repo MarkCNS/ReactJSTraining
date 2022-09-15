@@ -1,0 +1,82 @@
+<Box
+            sx={{
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "space-between",
+              flexWrap: "wrap",
+              width: "100%",
+              overflow: "hidden",
+            }}
+          >
+            <Grid>
+              <Box sx={{ color: "black" }}>
+                <Typography
+                  variant="header"
+                  gutterBottom
+                  sx={{
+                    color: "#000000",
+                    width: "277px",
+                    height: "29px",
+                    fontSize: "24px",
+                    lineHeight: "29px",
+                    letterSpacing: "0.05em",
+                  }}
+                >
+                  Children
+                </Typography>
+              </Box>
+            </Grid>
+            <Box>
+              <Typography
+                variant="header"
+                gutterBottom
+                sx={{
+                  color: "#000000",
+                  width: "277px",
+                  height: "29px",
+                  fontSize: "24px",
+                  lineHeight: "29px",
+                  letterSpacing: "0.05em",
+                }}
+              >
+                Children
+              </Typography>
+            </Box>
+            <Box>
+              <Typography
+                variant="header"
+                gutterBottom
+                sx={{
+                  color: "#000000",
+                  width: "277px",
+                  height: "29px",
+                  fontSize: "24px",
+                  lineHeight: "29px",
+                  letterSpacing: "0.05em",
+                }}
+              >
+                Children
+              </Typography>
+            </Box>
+          </Box>
+
+
+
+
+
+
+
+          ::-webkit-scrollbar {
+  height: 4px;
+  width: 4px;
+  border: 1px solid #d5d5d5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    270deg,
+    rgba(159, 50, 90, 0.97) 28.92%,
+    rgba(255, 0, 0, 0.75) 108.41%
+  );
+  border-radius: 10px;
+}
